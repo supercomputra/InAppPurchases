@@ -13,6 +13,17 @@
 		E14DAA25266B1C640058169B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E14DAA23266B1C640058169B /* Main.storyboard */; };
 		E14DAA27266B1C660058169B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E14DAA26266B1C660058169B /* Assets.xcassets */; };
 		E14DAA2A266B1C660058169B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E14DAA28266B1C660058169B /* LaunchScreen.storyboard */; };
+		E14DAA3D266B1C990058169B /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14DAA33266B1C990058169B /* BaseViewController.swift */; };
+		E14DAA3E266B1C990058169B /* AppDataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14DAA34266B1C990058169B /* AppDataTypes.swift */; };
+		E14DAA3F266B1C990058169B /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14DAA35266B1C990058169B /* Utilities.swift */; };
+		E14DAA40266B1C990058169B /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14DAA36266B1C990058169B /* StoreManager.swift */; };
+		E14DAA41266B1C990058169B /* StoreObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14DAA37266B1C990058169B /* StoreObserver.swift */; };
+		E14DAA42266B1C990058169B /* PaymentTransactionDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14DAA38266B1C990058169B /* PaymentTransactionDetails.swift */; };
+		E14DAA43266B1C990058169B /* AppExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14DAA39266B1C990058169B /* AppExtensions.swift */; };
+		E14DAA44266B1C990058169B /* Purchases.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14DAA3A266B1C990058169B /* Purchases.swift */; };
+		E14DAA45266B1C990058169B /* AppProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14DAA3B266B1C990058169B /* AppProtocols.swift */; };
+		E14DAA46266B1C990058169B /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14DAA3C266B1C990058169B /* Products.swift */; };
+		E14DAA50266B1E200058169B /* ProductIdentifiers.plist in Resources */ = {isa = PBXBuildFile; fileRef = E14DAA4F266B1E200058169B /* ProductIdentifiers.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		E14DAA26266B1C660058169B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E14DAA29266B1C660058169B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E14DAA2B266B1C660058169B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E14DAA33266B1C990058169B /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		E14DAA34266B1C990058169B /* AppDataTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDataTypes.swift; sourceTree = "<group>"; };
+		E14DAA35266B1C990058169B /* Utilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		E14DAA36266B1C990058169B /* StoreManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
+		E14DAA37266B1C990058169B /* StoreObserver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreObserver.swift; sourceTree = "<group>"; };
+		E14DAA38266B1C990058169B /* PaymentTransactionDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentTransactionDetails.swift; sourceTree = "<group>"; };
+		E14DAA39266B1C990058169B /* AppExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppExtensions.swift; sourceTree = "<group>"; };
+		E14DAA3A266B1C990058169B /* Purchases.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Purchases.swift; sourceTree = "<group>"; };
+		E14DAA3B266B1C990058169B /* AppProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppProtocols.swift; sourceTree = "<group>"; };
+		E14DAA3C266B1C990058169B /* Products.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		E14DAA4F266B1E200058169B /* ProductIdentifiers.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ProductIdentifiers.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +81,47 @@
 				E14DAA1D266B1C640058169B /* AppDelegate.swift */,
 				E14DAA1F266B1C640058169B /* SceneDelegate.swift */,
 				E14DAA21266B1C640058169B /* ViewController.swift */,
-				E14DAA23266B1C640058169B /* Main.storyboard */,
-				E14DAA26266B1C660058169B /* Assets.xcassets */,
-				E14DAA28266B1C660058169B /* LaunchScreen.storyboard */,
-				E14DAA2B266B1C660058169B /* Info.plist */,
+				E14DAA32266B1C8B0058169B /* Common */,
+				E14DAA48266B1D260058169B /* Configuration */,
+				E14DAA4A266B1D7C0058169B /* Supporting Files */,
 			);
 			path = InAppPurchases;
+			sourceTree = "<group>";
+		};
+		E14DAA32266B1C8B0058169B /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				E14DAA34266B1C990058169B /* AppDataTypes.swift */,
+				E14DAA39266B1C990058169B /* AppExtensions.swift */,
+				E14DAA3B266B1C990058169B /* AppProtocols.swift */,
+				E14DAA33266B1C990058169B /* BaseViewController.swift */,
+				E14DAA38266B1C990058169B /* PaymentTransactionDetails.swift */,
+				E14DAA3C266B1C990058169B /* Products.swift */,
+				E14DAA3A266B1C990058169B /* Purchases.swift */,
+				E14DAA36266B1C990058169B /* StoreManager.swift */,
+				E14DAA37266B1C990058169B /* StoreObserver.swift */,
+				E14DAA35266B1C990058169B /* Utilities.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		E14DAA48266B1D260058169B /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		E14DAA4A266B1D7C0058169B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E14DAA2B266B1C660058169B /* Info.plist */,
+				E14DAA26266B1C660058169B /* Assets.xcassets */,
+				E14DAA28266B1C660058169B /* LaunchScreen.storyboard */,
+				E14DAA23266B1C640058169B /* Main.storyboard */,
+				E14DAA4F266B1E200058169B /* ProductIdentifiers.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E14DAA2A266B1C660058169B /* LaunchScreen.storyboard in Resources */,
+				E14DAA50266B1E200058169B /* ProductIdentifiers.plist in Resources */,
 				E14DAA27266B1C660058169B /* Assets.xcassets in Resources */,
 				E14DAA25266B1C640058169B /* Main.storyboard in Resources */,
 			);
@@ -137,9 +195,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E14DAA3F266B1C990058169B /* Utilities.swift in Sources */,
+				E14DAA42266B1C990058169B /* PaymentTransactionDetails.swift in Sources */,
+				E14DAA40266B1C990058169B /* StoreManager.swift in Sources */,
 				E14DAA22266B1C640058169B /* ViewController.swift in Sources */,
+				E14DAA41266B1C990058169B /* StoreObserver.swift in Sources */,
+				E14DAA43266B1C990058169B /* AppExtensions.swift in Sources */,
+				E14DAA3D266B1C990058169B /* BaseViewController.swift in Sources */,
+				E14DAA46266B1C990058169B /* Products.swift in Sources */,
+				E14DAA3E266B1C990058169B /* AppDataTypes.swift in Sources */,
 				E14DAA1E266B1C640058169B /* AppDelegate.swift in Sources */,
 				E14DAA20266B1C640058169B /* SceneDelegate.swift in Sources */,
+				E14DAA44266B1C990058169B /* Purchases.swift in Sources */,
+				E14DAA45266B1C990058169B /* AppProtocols.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +356,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 44VVQHZS45;
-				INFOPLIST_FILE = InAppPurchases/Info.plist;
+				INFOPLIST_FILE = "InAppPurchases/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +375,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 44VVQHZS45;
-				INFOPLIST_FILE = InAppPurchases/Info.plist;
+				INFOPLIST_FILE = "InAppPurchases/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

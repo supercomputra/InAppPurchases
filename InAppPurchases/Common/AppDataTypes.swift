@@ -83,7 +83,7 @@ struct Messages {
 /// A structure that specifies the name and file extension of a resource file, which contains the product identifiers to be queried.
 struct ProductIdentifiers {
     /// Name of the resource file containing the product identifiers.
-    let name = "ProductIds"
+    let name = "ProductIdentifiers"
     /// Filename extension of the resource file containing the product identifiers.
     let fileExtension = "plist"
 }
