@@ -60,7 +60,11 @@ extension SKProduct {
 extension SKDownload {
     /// - returns: A string representation of the downloadable content length.
     var downloadContentSize: String {
-        return ByteCountFormatter.string(fromByteCount: self.expectedContentLength, countStyle: .file)
+        if #available(iOS 13.0, *) {
+            return ByteCountFormatter.string(fromByteCount: self.expectedContentLength, countStyle: .file)
+        } else {
+            return ByteCountFormatter.string(fromByteCount: self.contentLength, countStyle: .file)
+        }
     }
 }
 
