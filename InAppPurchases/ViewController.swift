@@ -50,6 +50,7 @@ class ParentViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = UIColor.systemBackground
         
         // Disable or hide the button.
         restoreButton.disable()
